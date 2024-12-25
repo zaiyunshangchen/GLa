@@ -40,3 +40,5 @@ if __name__ == '__main__':
          requests.get('http://www.pushplus.plus/send?token=' + sckey + '&title='+email+'签到成功'+'&content='+sendContent)
 
 
+
+
