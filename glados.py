@@ -3,10 +3,6 @@ import requests,json,os
 # github workflows
 # -------------------------------------------------------------------------------------------
 
-permissions:
-  contents: read
-  actions: read
-
 
 if __name__ == '__main__':
 # pushplus秘钥 申请地址 http://www.pushplus.plus
