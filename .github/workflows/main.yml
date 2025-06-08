@@ -1,4 +1,7 @@
 name: 开始每日签到
+permissions:
+  contents: read
+
 
 on:
   workflow_dispatch:
