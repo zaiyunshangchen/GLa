@@ -64,7 +64,7 @@ headers = get_headers(headers_str)
 message_dict = {'dlc@163.com': 'chenazx123'}
 
 for key, value in message_dict.items():
-    step = random.randint(12000, 20000)
+    step = random.randint(2000, 10000)
     data = {
         "referrer": "http://bs.yanwan.store/",
         "referrerPolicy": "strict-origin-when-cross-origin",
