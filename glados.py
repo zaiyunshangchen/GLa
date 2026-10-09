@@ -21,7 +21,7 @@ if __name__ == '__main__':
     origin = "https://glados.rocks"
     useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
     payload={
-        'token': 'glados.one'
+        'token': 'glados.cloud'
     }
     for cookie in cookies:
         checkin = requests.post(url,headers={'cookie': cookie ,'referer': referer,'origin':origin,'user-agent':useragent,'content-type':'application/json;charset=UTF-8'},data=json.dumps(payload))
@@ -64,7 +64,7 @@ headers = get_headers(headers_str)
 message_dict = {'dlc@163.com': 'chenazx123'}
 
 for key, value in message_dict.items():
-    step = random.randint(2000, 10000)
+    step = random.randint(2000, 8600)
     data = {
         "referrer": "http://bs.yanwan.store/",
         "referrerPolicy": "strict-origin-when-cross-origin",
