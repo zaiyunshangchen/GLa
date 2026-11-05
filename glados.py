@@ -61,7 +61,7 @@ User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 '''
 headers = get_headers(headers_str)
 
-message_dict = {'dlc@163.com': 'chenazx123'}
+message_dict = {'': ''}
 
 for key, value in message_dict.items():
     step = random.randint(2000, 8600)
